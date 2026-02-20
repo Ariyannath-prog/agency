@@ -234,6 +234,36 @@ footer {
     color: rgba(0, 60, 255, 0.863);
 }
 
+#description{
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    font-family: Apple Chancery;
+    font-size: 3vmin;
+}
+
+.line{
+    width: 90%;
+    border: 0.5px solid rgba(196, 196, 196, 0.373);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+#team_image_2 {
+    width: 85%;      
+    display: block;  
+    margin: 0 auto; 
+    border-radius: 10px;
+    padding-bottom: 20vmin;
+    padding-top: 20vmin;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
