@@ -216,7 +216,7 @@ footer {
     border-radius: 10px;
 }
 #tag_line{
-    padding-bottom: 50px;
+    padding-bottom: 15vmin;
     display: flex;
 }
 #tag_container{
