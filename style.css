@@ -181,7 +181,8 @@ nav {
 /* Footer */
 footer {
     padding: 100px 0 50px;
-    border-top: 1px solid #eee;
+    background-color: rgba(192, 192, 192, 0.769);
+    color: black;
 }
 
 .footer-content {
@@ -234,7 +235,7 @@ footer {
     color: rgba(0, 60, 255, 0.863);
 }
 
-#description{
+#review{
     text-align: center;
     max-width: 100%;
     display: flex;
@@ -278,3 +279,49 @@ footer {
         font-size: 3.5rem;
     }
 }
+
+.project_section{
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+    display: flex;
+    max-width: 100%;
+    background-color: #484848;
+    color: #eee;
+}
+
+.main_project{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_text{
+    font-size: 4vmax;
+    font-family: Big Caslon;
+}
+
+.button {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+     }
+    
+     .project_button {
+        padding: 2vmin 4vmin;
+        background-color: rgb(138, 138, 138);
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+        margin-top: 20px;
+        border: none;
+    }
+
+     .project_button:hover {
+        box-shadow: 2px 2px 5px #000000;
+        padding: 2vmin 4vmin;
+        background-color: rgba(106, 131, 255, 0.93);
+        border-radius: 50px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        transition: 0.5s;
+    }
