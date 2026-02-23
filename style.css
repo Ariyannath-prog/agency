@@ -181,10 +181,8 @@ nav {
 
 /* Modern White Footer */
 footer {
-    padding: 80px 0 40px;
     background-color: #ffffff;
     color: var(--text-color);
-    border-top: 1px solid #eee;
 }
 
 footer .footer-container {
@@ -610,4 +608,9 @@ footer .footer-bottom {
     .nav-menu .nav-links-mobile {
         gap: 25px;
     }
+}
+
+#contact{
+    padding-top: 20vmin;
+    padding-bottom: 3vmin;
 }
