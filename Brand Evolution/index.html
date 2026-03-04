@@ -1,123 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brand Evolution - Creative Design Studio</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brand Evolution - Creative Design Studio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <ul class="nav-menu" id="navMenu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#studio">Studio</a></li>
-            <li><a href="#info">Info</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-        </ul>
-    </nav>
+  <nav class="navbar">
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+  </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Brand Evolution</h1>
-            <p class="hero-subtitle">Crafting Digital Experiences That Matter</p>
-        </div>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">Brand Evolution</h1>
+      <p class="hero-subtitle">Crafting Digital Experiences That Matter</p>
+    </div>
+  </section>
+
+  <section class="hero-visual">
+    <img id="hero-gif" src="v1.gif" alt="Brand evolution animation" loading="lazy">
+  </section>
+
+  <main class="container">
+    <section class="section intro">
+      <p class="section-text">
+        Brand Evolution is a comprehensive approach to creating modern, responsive digital experiences.
+        We focus on clean design, intuitive navigation, and meaningful user interactions that resonate with your audience.
+      </p>
     </section>
 
-    <!-- Main Content -->
-    <main class="container">
-        <!-- About Section -->
-        <section class="section">
-            <h2 class="section-title">About the Project</h2>
-            <p class="section-text">
-                Brand Evolution is a comprehensive approach to creating modern, responsive digital experiences. 
-                We focus on clean design, intuitive navigation, and meaningful user interactions that resonate with your audience.
-            </p>
-        </section>
+    <section class="demo-gif">
+        <img class="demo-gif-2" src="v2.gif" alt="">
+        <img class="demo-gif-2" src="v3.gif" alt="">
+    </section>
 
-        <!-- Features Section -->
-        <section class="section features">
-            <h2 class="section-title">Key Features</h2>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <h3>Responsive Design</h3>
-                    <p>Seamlessly adapts to all screen sizes with a modern hamburger navigation system.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Modern Aesthetics</h3>
-                    <p>Contemporary design language with carefully curated color palettes and typography.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Smooth Interactions</h3>
-                    <p>Fluid animations and transitions that enhance user experience without overwhelming.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Brand Focused</h3>
-                    <p>Every design decision serves your brand identity and communicates your vision clearly.</p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Design System Section 
-        <section class="section">
-            <h2 class="section-title">Design System</h2>
-            <p class="section-text">
-                Our design system is built on a carefully selected color palette that works harmoniously 
-                across all digital touchpoints. Each color serves a specific purpose in creating visual hierarchy 
-                and guiding user attention.
-            </p>
-            <div class="color-palette">
-                <div class="color-item">
-                    <div class="color-swatch" style="background-color: #FF8360;"></div>
-                    <p>Coral - Accent & Energy</p>
-                </div>
-                <div class="color-item">
-                    <div class="color-swatch" style="background-color: #E8E288;"></div>
-                    <p>Lime - Highlight</p>
-                </div>
-                <div class="color-item">
-                    <div class="color-swatch" style="background-color: #7DCE82;"></div>
-                    <p>Green - Growth</p>
-                </div>
-                <div class="color-item">
-                    <div class="color-swatch" style="background-color: #3CDBD3;"></div>
-                    <p>Cyan - Trust</p>
-                </div>
-                <div class="color-item">
-                    <div class="color-swatch" style="background-color: #00FFF5;"></div>
-                    <p>Bright Cyan - Highlight</p>
-                </div>
-            </div>
-        </section>-->
-
-        <!-- Impact Section -->
-        <section class="section impact">
-            <h2 class="section-title">The Impact</h2>
-            <p class="section-text">
-                By combining modern design principles with intuitive interactions, we create digital experiences 
-                that not only look exceptional but also perform exceptionally. Our approach ensures that every 
-                element contributes to a cohesive brand story.
-            </p>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2026 Brand Evolution. All rights reserved.</p>
-            <p>Crafting digital experiences that matter.</p>
+    <section class="section features">
+      <h2 class="section-title">Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h3>Responsive Design</h3>
+          <p>Seamlessly adapts to all screen sizes with fluid layouts & modern navigation.</p>
         </div>
-    </footer>
+        <div class="feature-item">
+          <h3>Modern Aesthetics</h3>
+          <p>Contemporary design with purposeful gradients, typography & micro-interactions.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Smooth Interactions</h3>
+          <p>Subtle animations & transitions that feel premium yet performant.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Brand Focused</h3>
+          <p>Every element reinforces your identity and tells a coherent story.</p>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section>
+      <img id="big-img" src="big-img.jpg" alt="">
+    </section>
+
+    <section class="section impact">
+      <h2 class="section-title">The Impact</h2>
+      <p class="section-text">
+        By combining purposeful design with intuitive flow, we build digital experiences that look exceptional and convert exceptionally.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Brand Evolution. All rights reserved.</p>
+      <p>Crafting digital experiences that matter.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
