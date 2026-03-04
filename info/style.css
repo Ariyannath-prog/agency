@@ -477,11 +477,11 @@ footer {
     border-radius: 10px;
 }
 
-#team-image-main1{
+#team-image-main{
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    width: 70%;
+    width: 80%;
 }
 
 .team-image1{
@@ -493,13 +493,6 @@ footer {
     margin-top: 100px;
 }
 
-#team-image-main2{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    width: 70%;
-}
-
 .team-image2{
     display: flex;
     margin-left: auto;
@@ -507,13 +500,6 @@ footer {
     border-radius: 10px;
     margin-bottom: 100px;
     margin-top: 100px;
-}
-
-#team-image-main3{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    width: 70%;
 }
 
 .team-image3{
