@@ -60,20 +60,20 @@ body {
 .hamburger span {
   width: 28px;
   height: 3px;
-  background: linear-gradient(90deg, var(--coral), var(--bright-cyan));
+  background: linear-gradient(90deg, black, var(--bright-cyan));
   border-radius: 2px;
   transition: all 0.35s ease;
 }
 
-.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(8px, 8px); }
+.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 8px); }
 .hamburger.active span:nth-child(2) { opacity: 0; transform: translateX(-10px); }
-.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(8px, -8px); }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -8px); }
 
 .nav-menu {
   position: absolute;
   top: 100%;
   right: 4vw;
-  background: var(--glass-bg);
+  background: rgba(255, 255, 255, 0.906);
   backdrop-filter: blur(16px);
   border-radius: 16px;
   overflow: hidden;
@@ -114,7 +114,7 @@ body {
 .hero-title {
   font-size: clamp(3.5rem, 12vw, 9rem);
   font-weight: 800;
-  background: linear-gradient(90deg, var(--coral), var(--bright-cyan));
+  background: linear-gradient(90deg, black, var(--bright-cyan));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -160,7 +160,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 3rem;
-  background: linear-gradient(90deg, var(--coral), var(--cyan));
+  background: linear-gradient(90deg, black, var(--cyan));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
